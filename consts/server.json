@@ -1,0 +1,33 @@
+{
+  "default_environment": "stage",
+  "environments": {
+    "development": {
+      "ports": {
+        "http": 1337,
+        "https": 1338
+      },
+      "name": "development"
+    },
+    "test": {
+      "ports": {
+        "http": 7331,
+        "https": 7332
+      },
+      "name": "test"
+    },
+    "stage": {
+      "ports": {
+        "http": 3000,
+        "https": 3001
+      },
+      "name": "stage"
+    },
+    "production": {
+      "ports": {
+        "http": 5000,
+        "https": 5001
+      },
+      "name": "production"
+    }
+  }
+}
