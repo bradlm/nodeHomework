@@ -1,11 +1,14 @@
 {
   "name": "hello-world",
   "version": "0.0.1",
-  "description": "first assignment for node masterclass",
+  "description": "Hello, world!",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node ."
+    "start": "node .",
+    "start:dev": "NODE_ENV=development node .",
+    "start:test": "NODE_ENV=development node .",
+    "start:stg": "NODE_ENV=development node ."
   },
   "author": "brad melluish",
   "license": "MIT",
